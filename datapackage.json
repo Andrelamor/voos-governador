@@ -1,0 +1,81 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "voos-governador-nov-20.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "data",
+            "type": "date",
+            "format": "default",
+            "title": "Data do Voo"
+          },
+          {
+            "name": "solicitante",
+            "type": "string",
+            "format": "default",
+            "title": "Solicitante do Voo"
+          },
+          {
+            "name": "orgao",
+            "type": "string",
+            "format": "default",
+            "title": "Órgão do Solicitante do Voo"
+          },
+          {
+            "name": "motivo",
+            "type": "string",
+            "format": "default",
+            "title": "Motivo do Voo",
+            "description": "o mesmo motivo pode abranger mais de um trecho"
+          },
+          {
+            "name": "origem",
+            "type": "string",
+            "format": "default",
+            "title": "Município de decolagem"
+          },
+          {
+            "name": "destino",
+            "type": "string",
+            "format": "default",
+            "title": "Município da aterrissagem"
+          },
+          {
+            "name": "duracao",
+            "type": "duration",
+            "format": "default",
+            "title": "Duração, em horas, do voo"
+          },
+          {
+            "name": "aerovanve",
+            "type": "string",
+            "format": "default",
+            "title": "Inscrição da aeronave"
+          },
+          {
+            "name": "passageiro",
+            "type": "string",
+            "format": "default",
+            "title": "Nome do passageiro"
+          },
+          {
+            "name": "cargo_funcao",
+            "type": "string",
+            "format": "default",
+            "title": "Cargo ou função do passageiro"
+          },
+          {
+            "name": "orgao-instituicao",
+            "type": "string",
+            "format": "default",
+            "title": "Órgão ou Instituição do passageiro"
+          }
+        ]
+      }
+    }
+  ]
+}
