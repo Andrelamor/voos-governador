@@ -46,7 +46,7 @@
           },
           {
             "name": "duracao",
-            "type": "duration",
+            "type": "time",
             "format": "default",
             "title": "Duração, em horas, do voo"
           },
